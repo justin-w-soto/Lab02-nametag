@@ -50,4 +50,14 @@ main {
 
 }
 
+button {
+    background-color: red;
+    color:white;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 2px 2px gray;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
     
