@@ -12,18 +12,15 @@ const pronouns = document.getElementById('pronouns');
 
 // name button 
 submitBtn.addEventListener('click', ()=>{
-    console.log(inputField.value);
-    console.log(middleSection.textContent);
     middleSection.textContent = inputField.value;
-    console.log(colorField.value);
     topSection.style.backgroundColor = colorField.value;
     bottomSection.style.backgroundColor = colorField.value;
 
-})
+});
 
 // pronoun button
 pronounBtn.addEventListener('click', ()=>{
     pronouns.textContent = pronounField.value;
-} )
+});
 
 
